@@ -1,0 +1,9 @@
+/* src/components/ConditionalRuleEditor.css */
+.rule-editor { padding:12px; }
+.rule-editor .row { margin-bottom:8px; display:flex; gap:8px; align-items:center; }
+.conditions { margin-top:8px; }
+.cond { display:flex; gap:8px; margin-bottom:8px; align-items:center; }
+.cond select, .cond input { padding:6px; border-radius:6px; border:1px solid #e6e9ef; }
+.cond .danger { background:#fff; color:#e53e3e; border:1px solid #f0c0c0; padding:6px; border-radius:6px; cursor:pointer; }
+.controls { margin-top:10px; display:flex; gap:8px; }
+.controls .save { background:#0b63ff; color:#fff; padding:6px 10px; border-radius:6px; border:none; cursor:pointer; }

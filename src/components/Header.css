@@ -1,0 +1,31 @@
+/* src/components/Header.css */
+.app-header {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:12px 20px;
+  background: #fff;
+  border-bottom: 1px solid #eef0f5;
+  position: sticky;
+  top:0;
+  z-index: 20;
+}
+.brand a {
+  font-weight:700;
+  text-decoration:none;
+  color:#111;
+}
+.nav a {
+  margin:0 10px;
+  color:#354;
+  text-decoration:none;
+  font-weight:600;
+}
+.auth { display:flex; align-items:center; gap:10px; }
+.user-name { font-size:14px; color:#333; }
+.login-btn {
+  background:#0b63ff; color:#fff; padding:6px 10px; border-radius:6px; text-decoration:none;
+}
+.link-btn {
+  background:transparent; color:#0b63ff; border:none; cursor:pointer; font-weight:600;
+}

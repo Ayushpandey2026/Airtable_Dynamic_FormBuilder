@@ -1,0 +1,61 @@
+/* src/styles/global.css */
+:root {
+  --bg: #f7f8fb;
+  --card: #ffffff;
+  --muted: #666;
+  --accent: #2b6ef6;
+  --danger: #e53e3e;
+}
+
+body {
+  margin:0;
+  font-family: Inter, system-ui, Arial;
+  background: var(--bg);
+  color: #111;
+}
+
+.container {
+  max-width: 980px;
+  margin: 24px auto;
+  padding: 16px;
+}
+
+/* basic card */
+.card {
+  background: var(--card);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(10,10,10,0.04);
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+/* buttons */
+button {
+  background: var(--accent);
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* form bits */
+.field { margin-bottom:12px; }
+.field label { display:block; font-weight:600; margin-bottom:6px; }
+.field input[type="text"],
+.field input[type="file"],
+.field select,
+.field textarea {
+  width:100%;
+  padding:8px;
+  border:1px solid #e6e9ef;
+  border-radius:6px;
+  font-size:14px;
+}
+.req { color: var(--danger); margin-left:6px; font-weight:700; }
+.error { color: var(--danger); font-size:13px; margin-top:6px; }
